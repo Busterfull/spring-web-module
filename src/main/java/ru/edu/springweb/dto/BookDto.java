@@ -1,13 +1,11 @@
-package ru.edu.springweb.entity;
+package ru.edu.springweb.dto;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.springframework.stereotype.Component;
 
-@Component
 @Getter
 @Setter
-public class Book {
+public class BookDto {
     private Long id;
     private String title;
     private String author;
